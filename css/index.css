@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+
+header {
+  padding: 1.5rem;
+  background-color: #ccc;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
