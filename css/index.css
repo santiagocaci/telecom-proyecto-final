@@ -1,11 +1,14 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #000;
+  background-color: #eee;
 }
 
 header {
   padding: 1.5rem;
   background-color: #ccc;
+  position: sticky;
+  top: 0;
 }
 
 .header-container {
@@ -17,6 +20,12 @@ header {
   margin: 0 auto;
 }
 
+.nosotros-p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
 a {
   text-decoration: none;
 
@@ -25,7 +34,87 @@ a {
   }
 }
 
+section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #eee;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
 nav {
   display: flex;
   gap: 1rem;
+}
+
+.container-products {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+/* footer */
+
+footer {
+  padding: 1.5rem;
+  background-color: #ccc;
+}
+
+.footer-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  flex-grow: 1;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 1rem;
 }
